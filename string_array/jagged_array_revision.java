@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class jagged_array_revision 
 {
@@ -13,7 +13,7 @@ public class jagged_array_revision
         //     {"south wales","columbia"}
         // };
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the country :");
+        System.out.println("enter the no of country u want :");
         int country=sc.nextInt();
         sc.nextLine();
         System.out.println("enter the countries name:");
@@ -39,10 +39,10 @@ public class jagged_array_revision
         System.out.println("the given data is :");
         for (int i = 0; i < states.length; i++) 
         {
-            System.out.println(countriesnames[i]+": ");
+            System.out.println("\t"+countriesnames[i]+": ");
             for (int j = 0; j < states[i].length; j++) 
             {
-                System.out.print(states[i][j]+" \t");
+                System.out.print("\t\t"+states[i][j]);
             }
             System.out.println();
         }

@@ -1,4 +1,4 @@
-// package string_array;
+
 import java.util.*;
 
 public class Example_Of_2D

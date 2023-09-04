@@ -28,5 +28,6 @@ public class Q_3 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -28,5 +28,6 @@ public class Q_6 {
             }
         }
         System.out.print("non zero elements are in arry: "+count);
+        sc.close();
     }
 }

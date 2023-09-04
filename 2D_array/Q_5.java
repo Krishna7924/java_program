@@ -43,5 +43,6 @@ public class Q_5 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
