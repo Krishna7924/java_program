@@ -1,5 +1,3 @@
-package function;
-// blueprint !
 class car
 {
     int wheels=5;
@@ -24,12 +22,16 @@ public class ClassDemo
 {
     public static void main(String[] args) 
     {
-        int a; //isme 'a' jo hai variable hai 
-        car krishnakicar; // reference variable :- krishnakicar ek variable hai jise hamne declare kiya hai
-        new car(); /*  new means memorey dene ke liye
-                    new ka ek box bn jyega or usme car type ka memory store hoga*/
+       // // int a; //isme 'a' jo hai variable hai 
+        // car krishnakicar; // reference variable :- krishnakicar ek variable hai jise hamne declare kiya hai
+        // // new car(); /*  new means memorey dene ke liye
+        // //             new ka ek box bn jyega or usme car type ka memory store hoga*/
+        // krishnakicar=new car();
+        // krishnakicar.showdata();
 
 
+        // car myCar=new car(); // instantiation
+        // myCar.showdata();
         
     }
     

@@ -27,6 +27,7 @@ public class Q_4
         }
         
         System.out.print("\n");
+        sc.close();
         
     }
 }

@@ -1,6 +1,6 @@
 // package array_exercise;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Q_7 {
 
@@ -45,6 +45,6 @@ public class Q_7 {
     
         System.out.println("The FIRST LARGEST = "+largest1);
         System.out.print("THE SECOND LARGEST = "+largest2);
-    
+        sc.close();
     }
 }

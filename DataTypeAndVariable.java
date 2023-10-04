@@ -9,9 +9,9 @@ public class DataTypeAndVariable
         result=num1+num2;
 
         System.out.println("result");
-        System.out.println(result);
+        // System.out.println(result);
         System.out.println("the value of result is "+result);
-        System.out.println("result ki value "+result + "hai");
+        System.out.println("result ki value "+result +" hai ");
 
     }
     
